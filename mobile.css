@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px) {
+    .container__form {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .container__form {
+        width: 80%;
+        padding: 12% 5% 10%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container-fluid {
+        padding: 20%;
+    }
+
+    .container__form {
+        width: 90%;
+    }
+}
