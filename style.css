@@ -1,0 +1,77 @@
+:root {
+    --main_color: #287094;
+    --gray_color: #D4D4CE;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    height: 100vh;
+    padding: 10% 0;
+    background-image: url('images/library.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.container__form {
+    width: 30%;
+    margin: auto;
+    padding: 3% 2% 2%;
+    border: 1px solid var(--gray_color);
+    border-radius: 0.1rem;
+    background-color: white;
+}
+
+.container__form h4 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container__form form {
+    margin-top: 5%;
+}
+
+.container__form form label {
+    text-transform: capitalize;
+}
+
+.button {
+    width: 60%;
+    margin: 5% 20% 0;
+    padding: 2.5%;
+    border: none;
+    border-radius: 0.3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    background-color: var(--main_color);
+}
+
+.button:hover {
+    transition: 1.8s;
+    transition-timing-function: ease-in-out;
+    background-color: yellowgreen;
+}
+.container__form p {
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.container__form label.error {
+    padding-left: 2%;
+    color: red;
+    font-size: 0.9rem;
+}
+.password {
+    position: relative;
+}
+.showPassword {
+    position: absolute;
+    top: 57%;
+    right: 3%;
+    cursor: pointer;
+}
+#password {
+    padding-right: 10%;
+}
