@@ -1,15 +1,10 @@
-@media screen and (max-width: 768px) {
-    
+@media screen and (max-width: 768px) { 
     .container__form {
         width: 45%;
     }
 }
 
 @media screen and (max-width: 425px) {
-    /* .container-fluid {
-        min-height: auto;
-        padding: 10% 0 ;
-    } */
     .container__form {
         width: 90%;
         padding: 12% 5% 10%;
@@ -17,10 +12,6 @@
 }
 
 @media screen and (max-width: 375px) {
-    /* .container-fluid {
-        padding: 20% 0;
-    } */
-
     .container__form {
         width: 100%;
     }
